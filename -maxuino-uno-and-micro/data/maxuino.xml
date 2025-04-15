@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "maxuino.xml">
+	<slot number = "1">
+		<patcher name = "in-sel">
+			<pattr name = "0-pinmode" value = "1" />
+		</patcher>
+		<patcher name = "in-sel[1]">
+			<pattr name = "1-pinmode" value = "1" />
+		</patcher>
+		<patcher name = "in-sel[3]">
+			<pattr name = "2-pinmode" value = "1" />
+		</patcher>
+		<patcher name = "in-sel[2]">
+			<pattr name = "3-pinmode" value = "3" />
+		</patcher>
+		<patcher name = "in-sel[7]">
+			<pattr name = "4-pinmode" value = "1" />
+		</patcher>
+		<patcher name = "in-sel[6]">
+			<pattr name = "5-pinmode" value = "3" />
+		</patcher>
+		<patcher name = "in-sel[5]">
+			<pattr name = "6-pinmode" value = "3" />
+		</patcher>
+		<patcher name = "in-sel[4]">
+			<pattr name = "7-pinmode" value = "1" />
+		</patcher>
+		<patcher name = "in-sel[15]">
+			<pattr name = "8-pinmode" value = "1" />
+		</patcher>
+		<patcher name = "in-sel[14]">
+			<pattr name = "9-pinmode" value = "3" />
+		</patcher>
+		<patcher name = "in-sel[13]">
+			<pattr name = "10-pinmode" value = "3" />
+		</patcher>
+		<patcher name = "in-sel[12]">
+			<pattr name = "11-pinmode" value = "3" />
+		</patcher>
+		<patcher name = "in-sel[11]">
+			<pattr name = "12-pinmode" value = "1" />
+		</patcher>
+		<patcher name = "in-sel[10]">
+			<pattr name = "13-pinmode" value = "1" />
+		</patcher>
+		<patcher name = "in-sel[9]">
+			<pattr name = "14-pinmode" value = "2" />
+		</patcher>
+		<patcher name = "in-sel[8]">
+			<pattr name = "15-pinmode" value = "2" />
+		</patcher>
+		<patcher name = "in-sel[17]">
+			<pattr name = "16-pinmode" value = "2" />
+		</patcher>
+		<patcher name = "in-sel[16]">
+			<pattr name = "17-pinmode" value = "2" />
+		</patcher>
+		<patcher name = "in-sel[18]">
+			<pattr name = "18-pinmode" value = "2" />
+		</patcher>
+	</slot>
+</pattrstorage>
+

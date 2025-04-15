@@ -1,0 +1,74 @@
+							ENGLISH (french below)
+
+///////////////////// Arduino Micro as Class Compliant MIDI Controller ///////////////////
+
+:::::::::::::::::::::: CODE :
+- Put the "MidiCtlr-Atmega32u4-NOTES.ino" code into the Arduino
+- Make sure to set the correct number of connected controllers, otherwise there will be noise on the other CCs. Alternatively, connect the ground to the unused inputs.
+- You need to choose Leonardo even if you see Micro
+- Since version 2.3.3 of the Arduino IDE, you need to ignore the Print error:
+[Connecting to programmer: .
+Found programmer: Id = "CATERIN"; type = S
+    Software Version = 1.0; No Hardware Version given.
+Programmer supports auto addr increment.
+Programmer supports buffered memory access with buffersize=128 bytes.
+
+Programmer supports the following devices:
+    Device code: 0x44 ]
+
+This is a debugging feature that you should ignore. Otherwise, you can pass without the Verbose mode, but it may cause other issues.
+
+:::::::::::::::::::::: HARDWARE :
+For optimal performance, take both power and ground from the Arduino. This is the most stable way
+
+The potentiometers connect as follows:
+	* 1 == 5V
+	* 2 == return to AnalogPin
+	* 3 == GND
+
+The buttons connect as follows:
+	* 1 == DigitPin
+	* 2 == GND
+
+The values start with:
+	* AnalogIn = MIDI CC1, … / velocity 0…127
+	* DigitPin = note in 36 (MIDI C2),… / velocity 0…127
+
+
+----------------------------------------
+
+
+///////////////////// Arduino micro as class compliant midi controller ///////////////////
+
+:::::::::::::::::::::: CODE :
+- mettre le code "MidiCtlr-Atmega32u4-NOTES.ino" dans l'arduino
+- penser a mettre le bon nombre de ctlrs connectés sinon il y a du bruit sur les autre CC. Ou connecter la terre au entrées inutilisées.
+- il faut choisir Leonardo même si on voit la Micro
+- depuis la version 2.3.3 de l'Arduino IDE il faut ignorer l'erreur de Print :
+[Connecting to programmer: .
+Found programmer: Id = "CATERIN"; type = S
+    Software Version = 1.0; No Hardware Version given.
+Programmer supports auto addr increment.
+Programmer supports buffered memory access with buffersize=128 bytes.
+
+Programmer supports the following devices:
+    Device code: 0x44 ]
+
+C'est un truc qu'ils laissent pour le débug mais qu'on doit ignorer. Sinon passer sans le mode Verbose mais ça peut poser d'autres soucis.
+
+
+:::::::::::::::::::::: HARDWARE :
+Pour que ça marche bien on prend le jus ET la terre sur l'Arduino. C'est le plus stable
+
+Les potars se connectent comme ceci :
+	- 1 == 5v
+	- 2 == retour vers AnalogPin
+	- 3 == GND
+
+Les inters se connectent comme ceci :
+	- 1 == DigitPin
+	- 2 == GND
+
+Le svaleurs commencent par :
+	- AnalogIn = midi CC1, … / velocity 0…127
+	- DigitPin = note in 36 (midi C2),… / velocity 0…127
